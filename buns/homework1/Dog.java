@@ -1,8 +1,6 @@
 package homework1;
 
-import org.springframework.stereotype.Component;
-
-@Component("dogBean")
+//@Component("dogBean")
 public class Dog implements Pet{
 //    private String name;
 
