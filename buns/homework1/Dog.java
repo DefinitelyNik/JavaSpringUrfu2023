@@ -1,7 +1,5 @@
 package homework1;
 
-import jakarta.annotation.PostConstruct;
-import jakarta.annotation.PreDestroy;
 import org.springframework.stereotype.Component;
 
 @Component("dogBean")
@@ -17,15 +15,15 @@ public class Dog implements Pet{
         System.out.println("Bow-Wow");
     }
 
-    @PostConstruct
-    public void init() {
-        System.out.println("Class Dog: init method");
-    }
-
-    @PreDestroy
-    public void destroy() {
-        System.out.println("Class Dog: destroy method");
-    }
+//    @PostConstruct
+//    public void init() {
+//        System.out.println("Class Dog: init method");
+//    }
+//
+//    @PreDestroy
+//    public void destroy() {
+//        System.out.println("Class Dog: destroy method");
+//    }
 
 //    public String getName() {
 //        return name;
