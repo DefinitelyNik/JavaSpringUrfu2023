@@ -1,4 +1,4 @@
-package homework1;
+package mod1;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

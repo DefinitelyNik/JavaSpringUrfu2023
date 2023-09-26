@@ -1,4 +1,4 @@
-package homework1;
+package mod1;
 
 public class Test1 {
     public static void main(String[] args) {

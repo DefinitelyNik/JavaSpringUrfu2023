@@ -1,4 +1,4 @@
-package homework1;
+package mod1;
 
 //@Component("dogBean")
 public class Dog implements Pet{

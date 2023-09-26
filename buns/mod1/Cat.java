@@ -1,4 +1,4 @@
-package homework1;
+package mod1;
 
 //@Component("catBean")
 public class Cat implements Pet{

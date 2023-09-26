@@ -6,7 +6,7 @@
 
 
     <bean id = "myPet"
-          class = "homework1.Dog"
+          class = "mod1.Dog"
           init-method="init"
           destroy-method="destroy"
           scope="prototype">
