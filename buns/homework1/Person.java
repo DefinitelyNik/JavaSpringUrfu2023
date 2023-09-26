@@ -1,13 +1,15 @@
 package homework1;
 
+import org.springframework.beans.factory.annotation.Value;
+
 //@Component("personBean")
 public class Person {
 //    @Autowired
 //    @Qualifier("catBean")
     private Pet pet;
-//    @Value("${person.surname}")
+    @Value("${person.surname}")
     private String surname;
-//    @Value("${person.age}")
+    @Value("${person.age}")
     private int age;
 
 //    @Autowired
