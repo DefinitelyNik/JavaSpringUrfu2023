@@ -15,7 +15,7 @@ public class LoggingAspect {
 
 //    @Pointcut("execution(* mod2.UniLibrary.*(..))")
 //    private void allMethodsFromUniLibrary() {}
-//
+
 //    @Pointcut("execution(public void mod2.UniLibrary.returnMagazine())")
 //    private void returnMagazineFromUniLibrary() {}
 //

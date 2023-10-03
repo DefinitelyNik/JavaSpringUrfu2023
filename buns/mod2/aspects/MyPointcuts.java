@@ -3,6 +3,6 @@ package mod2.aspects;
 import org.aspectj.lang.annotation.Pointcut;
 
 public class MyPointcuts {
-    @Pointcut("execution(* abc*(..))")
+    @Pointcut("execution(* add*(..))")
     public void allAddMethods() {}
 }
