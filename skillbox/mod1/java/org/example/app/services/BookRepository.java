@@ -41,4 +41,19 @@ public class BookRepository implements ProjectRepository<Book> {
         }
         return false;
     }
+
+    @Override
+    public boolean removeItemByRegex(String regexQuery) {
+        for (Book book : retrieveAll()) {
+            if(book.getAuthor().equals(regexQuery) ||
+                    book.getTitle().equals(regexQuery) ||
+                    book.getSize().equals(Integer.valueOf(regexQuery))){
+                logger.info("remove book completed: " + book);
+                return repo.remove(book);
+            } else {
+                logger.info("remove book failed: " + book);
+            }
+        }
+        return false;
+    }
 }
